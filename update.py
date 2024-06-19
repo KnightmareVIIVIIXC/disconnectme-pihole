@@ -6,6 +6,7 @@ from urllib.parse import urlparse
 entities_link = "https://raw.githubusercontent.com/disconnectme/disconnect-tracking-protection/master/entities.json"
 services_link = "https://raw.githubusercontent.com/disconnectme/disconnect-tracking-protection/master/services.json"
 
+
 def retrieve_contents(link):
     try:
         response = requests.get(link)
@@ -15,16 +16,18 @@ def retrieve_contents(link):
         print(f"Error retrieving data from {link}: {e}")
         return None
 
+
 def extract_domain(url):
     parsed_url = urlparse(url)
-    domain = parsed_url.netloc or parsed_url.path.split('/')[0]
+    domain = parsed_url.netloc or parsed_url.path.split("/")[0]
     return domain.lower().strip()
+
 
 def generate_entities_files():
     content = retrieve_contents(entities_link)
     if not content:
         return
-    
+
     try:
         entities = json.loads(content)["entities"]
     except json.JSONDecodeError as e:
@@ -42,11 +45,12 @@ def generate_entities_files():
         for domain in sorted(domains):
             print(domain, file=f)
 
+
 def generate_services_files():
     content = retrieve_contents(services_link)
     if not content:
         return
-    
+
     try:
         categories = json.loads(content)["categories"]
     except json.JSONDecodeError as e:
@@ -59,8 +63,12 @@ def generate_services_files():
             for domain_lists in service.values():
                 for domain_list in domain_lists.values():
                     if isinstance(domain_list, list):
-                        normalized_domains = {extract_domain(domain) for domain in domain_list}
-                        category_domains.setdefault(category, set()).update(normalized_domains)
+                        normalized_domains = {
+                            extract_domain(domain) for domain in domain_list
+                        }
+                        category_domains.setdefault(category, set()).update(
+                            normalized_domains
+                        )
 
     with open("services.txt", "w") as f:
         for category, domains in sorted(category_domains.items()):
@@ -71,6 +79,7 @@ def generate_services_files():
         with open(f"services_{category}.txt", "w") as f_category:
             for domain in sorted(domains):
                 print(domain, file=f_category)
+
 
 if __name__ == "__main__":
     generate_entities_files()
