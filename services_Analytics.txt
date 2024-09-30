@@ -19,6 +19,7 @@ amazingcounters.com
 amocrm.ru
 amplitude.com
 amung.us
+analytics.google.com
 analytics.yahoo.com
 anormal-media.de
 anormal-tracker.de
@@ -34,6 +35,7 @@ audienceinsights.net
 audioeye.com
 autoblog.com
 axf8.net
+b3mxnuvcer.com
 baidu.com
 bdstatic.com
 behavioralengine.com
@@ -97,6 +99,7 @@ convert.com
 convertexperiments.com
 convertro.com
 conviva.com
+cookielaw.org
 coremetrics.com
 cquotient.com
 crashlytics.com
@@ -258,6 +261,7 @@ netapplications.com
 newrelic.com
 newsinc.com
 nielsen.com
+nocodelytics.com
 nofraud.com
 noibu.com
 notolytix.com
@@ -295,7 +299,6 @@ piwik.org
 pixanalytics.com
 polldaddy.com
 postrank.com
-privacy-mgmt.com
 punchtab.com
 px-cdn.net
 px-cloud.net
@@ -319,6 +322,7 @@ safecount.net
 sageanalyst.net
 salesforce.com
 salesforceliveagent.com
+sardine.ai
 scanalert.com
 scorecardresearch.com
 sedotracker.com
@@ -354,7 +358,6 @@ statistik-gallup.net
 statsit.com
 storeland.ru
 stratigent.com
-summerhamster.com
 svlu.net
 swymrelay.com
 synacor.com
