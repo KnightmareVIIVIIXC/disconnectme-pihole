@@ -99,7 +99,6 @@ convert.com
 convertexperiments.com
 convertro.com
 conviva.com
-cookielaw.org
 coremetrics.com
 cquotient.com
 crashlytics.com
@@ -273,8 +272,6 @@ observerapp.com
 oewa.at
 officelive.com
 onestat.com
-onetrust.com
-onetrust.io
 onlinewebstats.com
 onthe.io
 ooyala.com
@@ -289,7 +286,6 @@ pdst.fm
 peerius.com
 pendo.io
 perfdrive.com
-perimeterx.net
 persianstat.com
 phonalytics.com
 phpmyvisites.us
@@ -300,8 +296,6 @@ pixanalytics.com
 polldaddy.com
 postrank.com
 punchtab.com
-px-cdn.net
-px-cloud.net
 pxlclnmdecom-a.akamaihd.net
 qualaroo.com
 qualtrics.com
@@ -380,6 +374,7 @@ trafficfacts.com
 transcend.io
 trustarc.com
 truste.com
+ttvnw.net
 turnto.com
 tweetmeme.com
 ubermedia.com
@@ -437,6 +432,7 @@ yahoofs.com
 yandex.ua
 yellowtracker.com
 yoox.it
+zdassets.com
 zendesk.com
 zoominfo.com
 zopim.com
